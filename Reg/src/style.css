@@ -1,0 +1,61 @@
+div.back {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("img.png");
+}
+
+div.center {
+    border: 3px solid coral;
+    border-radius: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 45%;
+    width: 30%;
+    background-color: lightgoldenrodyellow;
+    text-align: center;
+    padding: 1%;
+}
+
+form.auth {
+    margin: auto;
+    height: 95%;
+    width: 100%;
+}
+
+p {
+    font-size: 30px;
+}
+
+.name{
+    height: 5%;
+    margin-bottom: 50px;
+}
+
+
+input[type="text"],input[type="password"]{
+    width: 60%;
+    height:13%;
+    font-size: 18px;
+    margin-bottom: 25px;
+    border-radius: 4px;
+    padding-left: 40px;
+}
+
+.sub {
+    padding: 13px 30px;
+    margin: 10px 0 20px 0;
+    width: 35%;
+    font-size: 20px;
+    color: #fff;
+    background-color: #2ca8c6;
+    border: none;
+    border-bottom: 4px solid #6ee9fd;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
